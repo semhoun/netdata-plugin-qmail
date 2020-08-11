@@ -25,7 +25,7 @@
 #include "send.h"
 #include "smtp.h"
 
-#define DEFAULT_PATH "/var/log/qmail"
+#define DEFAULT_PATH "/var/log"
 
 enum poll {
 	POLL_SIGNAL = 0,
